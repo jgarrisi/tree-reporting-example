@@ -1,0 +1,52 @@
+  .filter {
+    margin-bottom: 10px;
+  }
+  .node {
+    cursor: pointer;
+  }
+
+  .node circle {
+    fill: #fff;
+    /*stroke: steelblue;*/
+    stroke-width: 1.5px;
+  }
+
+  .node text {
+    font: 14px sans-serif;
+  }
+
+  .legend text {
+    font: 14px sans-serif;
+  }
+
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+  }
+
+  .svg-container {
+    width:100%;
+    position: relative;
+    border: solid 2px #eee;
+    overflow: hidden;
+    padding-bottom: 60%;
+    display: inline-block;
+
+  }
+
+  .svg-content-responsive{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
+
+  .select2-container.select2-dropdown-open {
+    width: 170%;
+  }
+  #summary-box {
+    display: none;
+    padding: 0 10px;
+    border: solid 2px #eee;
+  }

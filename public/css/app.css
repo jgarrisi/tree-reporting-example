@@ -1,0 +1,40 @@
+.navbar-collapse {
+    padding: 0;
+}
+.navbar-brand {
+    padding-top: 7px;
+    vertical-align: middle;
+}
+.navbar-brand>img {
+    margin-right:5px;
+}
+div#site-name>h1>a {
+    color: inherit;
+    text-decoration: none;
+}
+ul.panel-list {
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul.panel-list li {
+    padding: 5px;
+    background: #f2f2f2;
+}
+
+ul.panel-list li:nth-child(2n) {
+    background: inherit;
+}
+.box {
+    display: block;
+    border: solid 2px #e5e8e8;
+    padding: 5px;
+}
+.box>.box-body {
+    border-top: solid 2px #e5e8e8;
+    padding-top: 5px;
+}
+.page-header {
+    margin-top: 0px;
+}

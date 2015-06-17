@@ -1,0 +1,7 @@
+/vendor
+/node_modules
+.env
+myserve.sh
+artisanserve.bat
+*.log
+.idea/

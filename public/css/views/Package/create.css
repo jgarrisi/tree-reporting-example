@@ -1,0 +1,6 @@
+table.appInfo {
+    text-align: left;
+}
+table.appInfo tr>td:first-child {
+    width: 150px;
+}
